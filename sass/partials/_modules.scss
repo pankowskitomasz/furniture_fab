@@ -19,6 +19,11 @@
         @extend %bg-tmp;
     }
 }
+.contact{
+    &-form{
+        @include set-background($bg__contact-form-img,0,"center","cover","scroll");  
+    }
+}
 .decoration{
     &-none{
         text-decoration: none !important;
@@ -29,7 +34,15 @@
         @extend %bg-tmp;
     }
 }
+.fit{
+    &-cover{
+        object-fit: cover;
+    }
+}
 .font{
+    &-big{
+        font-size: $font-big__size !important;
+    }
     &-logo{
         @include set-font-params($font-logo__family,$font-logo__size);
     }
@@ -37,12 +50,42 @@
         @include set-font-params($font-main__family,$font-main__size);
     }
 }
+.h{
+    &-25vh{
+        height:25vh;
+    }
+    &-35vh{
+        height:35vh;
+    }
+    &-50vh{
+        height:50vh;
+    }
+    &-100vh{
+        height:100vh;
+    }
+}
+.max{
+    &-600{
+        max-height: 600px !important;
+    }
+}
 .minh{
+    &-25vh{
+        min-height: 25vh;
+    }
     &-50vh{
         min-height: 50vh;
     }
+    &-75vh{
+        min-height: 75vh;
+    }
     &-100vh{
         min-height: 100vh;
+    }
+}
+.mix{
+    &-multiply{
+        mix-blend-mode: $bg__blend--multiply;
     }
 }
 .p{
@@ -59,8 +102,21 @@
         @extend %bg-tmp;
     }
 }
+.spacer{
+    &-top{
+        @include set-background($bg__spacer-top-img,0,"center","cover","scroll"); 
+    }
+}
 .text{
     &-shadow{
         text-shadow: $text__shadow;
     }
+}
+.z{
+    &-100{
+        z-index: 100;
+    }
+}
+textarea{
+    resize: none;
 }
