@@ -32,7 +32,18 @@ const homeCfg = [
     {navItem:true, exact:false, path:"/contact",name:"Go now",view:<Contact/>},
 ];
 
+const msgCfg = {
+    pageSize: 10
+};
+
+const APP_LINKS = {
+    messages: "http://localhost/demo/furniture_fab/public/message.php",
+    users: "http://localhost/demo/furniture_fab/public/user.php"
+};
+
 export {
     appCfg,
-    homeCfg
+    homeCfg,
+    msgCfg,
+    APP_LINKS
 }
