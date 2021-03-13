@@ -25,10 +25,8 @@ class Slider extends Component{
                                         Our premium collection is dedicated for those customers who want
                                         best quality premium products.
                                     </p>
-                                    <Link to="/premium">
-                                        <Button variant="outline-light" className="rounded-pill font-weight-bold">
-                                            See more
-                                        </Button>
+                                    <Link to="/premium" className="btn btn-outline-light rounded-pill font-weight-bold">
+                                        See more
                                     </Link>
                                 </Carousel.Caption>
                             </Carousel.Item>
@@ -44,10 +42,8 @@ class Slider extends Component{
                                         Our Optimum collection is dedicated for every day use, everywhere 
                                         where quality and good taste matters.
                                     </p>
-                                    <Link to="/optimum">
-                                        <Button variant="outline-light" className="rounded-pill font-weight-bold">
-                                            See more
-                                        </Button>
+                                    <Link to="/optimum" className="btn btn-outline-light rounded-pill font-weight-bold">
+                                        See more
                                     </Link>
                                 </Carousel.Caption>
                             </Carousel.Item>
@@ -63,10 +59,8 @@ class Slider extends Component{
                                         Our employees are for your disposal and answer all your questions.
                                         Contact us online, by phone or personally. 
                                     </p>
-                                    <Link to="/contact">
-                                        <Button variant="outline-light" className="rounded-pill font-weight-bold">
-                                            See more
-                                        </Button>
+                                    <Link to="/contact" className="btn btn-outline-light rounded-pill font-weight-bold">
+                                        See more
                                     </Link>
                                 </Carousel.Caption>
                             </Carousel.Item>

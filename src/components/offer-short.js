@@ -10,10 +10,8 @@ class OfferShort extends Component{
         let linking=["",""];
         if(this.props.backLink!==undefined){
             for(var i=0;i<this.props.backLink.length;i++){
-                linking[i] = <Link to={this.props.backLink[i].path}>
-                    <Button variant="outline-dark" className="rounded-pill">
-                        {this.props.backLink[i].name}
-                    </Button>
+                linking[i] = <Link to={this.props.backLink[i].path} className="btn btn-outline-dark rounded-pill">
+                   {this.props.backLink[i].name}
                 </Link>;
             }
         }
